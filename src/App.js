@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import QuestionComponent from "./QuestionComponent";
-import AddTask from "./AddTask";
+import QuestionComponent from "./components/question/QuestionComponent";
+import AddTask from "./components/AddTask";
 
 function App() {
   return (
